@@ -1,0 +1,50 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  display: block;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}

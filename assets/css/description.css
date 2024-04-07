@@ -1,0 +1,30 @@
+.description {
+  height: 777px;
+}
+.description__container {
+  padding-top: 40px;
+}
+.description__container > h2 {
+  margin-bottom: 30px;
+}
+.description__container > p {
+  width: 952px;
+  margin-bottom: 30px;
+}
+.wrapper__img {
+  width: 460px;
+  height: 196px;
+}
+.description__wrapper-img {
+  display: flex;
+  justify-content: space-between;
+}
+.block__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.description__wrapper-img > img {
+  width: 788px;
+  height: 424px;
+}

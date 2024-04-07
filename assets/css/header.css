@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Archangelsk";
+  src: url("../fonts/Archangelsk.eot");
+  src: local("Archangelsk"),
+    url("../fonts/Archangelsk.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Archangelsk.woff") format("woff"),
+    url("../fonts/Archangelsk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+b {
+  color: #52bedc;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* ============================== */
+.header {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+.slide {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all ease 1.3s;
+  z-index: -1;
+}
+.container {
+  margin: 0 auto;
+  max-width: var(--desktop-width);
+}
+.header__container {
+  padding-top: 30px;
+  height: 1000px;
+  position: relative;
+}
+
+.nav{
+  height: 74px;
+  max-width: var(--desktop-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 296px;
+  height: 74px;
+}
+
+.wrapper__social {
+  width: 379px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__link {
+  width: 30px;
+  height: 30px;
+  color: var(--color-black);
+}
+
+.social__link:hover{
+  color: #3c3520;
+  transform: scale(1.3);
+}
+
+.social__link:focus{
+  color: #3c3520;
+  transform: scale(1.3);
+}
+
+.social__link:active{
+  color: #3c3520;
+  transform: scale(1.3);
+}
+
+.header__banner {
+  position: absolute;
+  padding: 80px 40px 0 69px;
+  right: 0;
+  bottom: 0;
+  width: 624px;
+  height: 369px;
+  background-color: var(--color-yellow);
+  clip-path: polygon(7.8% 0, 100% 0, 100% 86.5%, 92.2% 100%, 0 100%, 0 13.5%);
+}
+
+.header__banner-title {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 77px;
+  margin-bottom: 20px;
+}
+
+.header__button {
+  background-color: var(--color-black);
+  width: 272px;
+  height: 78px;
+  color: var(--color-yellow);
+  font-size: 24px;
+}

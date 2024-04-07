@@ -1,0 +1,164 @@
+.raffle {
+  height: 814px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.raffle__container{
+position: relative;
+height: 814px;
+}
+
+.wrapper__action-img {
+  width: 132px;
+  margin-right: 20px;
+}
+.wrapper__headline {
+  display: flex;
+  margin-bottom: 30px;
+}
+.wrapper__headline > h2 {
+  padding-top: 50px;
+}
+.raffle__desc {
+  width: 952px;
+  margin-bottom: 60px;
+}
+.raffle__form {
+  max-width: 460px;
+  height: auto;
+}
+
+.input-wrap {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.form__input {
+  position: relative;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--color-gray);
+  outline: none;
+  padding-top: 10px;
+  background-color: transparent;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown) ~ .form__label {
+  top: -18px;
+}
+.input__wrap-file{
+  max-width: 460px;
+  height: 120px;
+  border: 2px dashed var(--color-gray);
+  margin-top: 35px;
+}
+
+.send-file{
+  display: none;
+}
+
+.send__label{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 6;
+
+}
+
+.type__loading{
+  position: relative;
+  top: -35px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+
+}
+
+.form__button{
+  margin-top: 35px;
+}
+
+.button__submit{
+  background-color: var(--color-yellow);
+  width: 192px;
+  height: 59px;
+  font-size: 18px;
+}
+
+.input__checkbox{
+  display: none;
+}
+
+.form__checkbox{
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--color-gray);
+  margin-top: 10px;
+  transition: 0.3s ease-in;
+}
+
+.checkbox__text{
+  position: relative;
+  bottom: 3px;
+  margin-left: 3px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+
+}
+
+.form__checkbox::before{
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)scale(0);
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 1px;
+  transition: 0.3s ease-in;
+}
+
+.input__checkbox:checked + .form__checkbox::before{
+  transform: translate(-50%,-50%)scale(1);
+}
+
+.img__price{
+  position: absolute;
+  width: 788px;
+  height: 456px;
+  right: 0;
+  bottom: 139px;
+}
