@@ -1,0 +1,48 @@
+.purchase{
+  display: flex;
+  color: var(--color-white);
+  background-color: var(--color-black);
+
+}
+
+.purchase__img{
+  max-width: 944px;
+  height: 717px;
+}
+
+.purchase__desc{
+  padding: 70px 0 0 30px;
+}
+.purchase__title{
+  width: 624px;
+  margin-bottom: 20px;
+}
+
+.purchase__list{
+  margin-bottom: 110px;
+}
+.purchase__list > li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.purchase__list-icon{
+  display: inline-block;
+  width: 32px;
+}
+
+.purchase__list-platforms{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 20px;
+  width: 319px;
+}
+.logo__PC{
+width: 62px;
+}
+.logo__xbox{width: 178px;}
+.logo__stadia{width: 58px;}
+.logo__Playstation{width: 168px;}

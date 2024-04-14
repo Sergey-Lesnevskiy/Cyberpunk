@@ -1,0 +1,35 @@
+
+.footer__content{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 100px;
+}
+.footer__wrapper-logo{
+  display: flex;
+  align-items: center;
+}
+.footer__logo-CP{
+  height: 74px;
+  width: 296px;
+  margin-right: 20px;
+
+}
+.footer__logo-bird{
+  width: 172px;
+}
+.license__links{
+  display: flex;
+  align-items: center;
+}
+.license__links > li:first-child {
+  margin-right: 40px;
+}
+.footer__author{
+  height: 40px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

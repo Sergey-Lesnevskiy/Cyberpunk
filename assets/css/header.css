@@ -124,6 +124,7 @@ b {
   font-weight: 600;
   line-height: 77px;
   margin-bottom: 20px;
+  text-shadow: 0px 4px 4px #00000052;
 }
 
 .header__button {
